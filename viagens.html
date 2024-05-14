@@ -3,12 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <title>Navbar</title>
         
         <style>
            
             .navbar {
-                background-color: #515839;
+                background-color: #f7f7f7;
                 overflow: hidden;
                 text-align: right; /* Alinhar à esquerda */
                 padding: 2.5%;
@@ -16,7 +17,7 @@
     
             .navbar a {
                display: inline-block;
-                color: #E4D9C7;
+                color: black;
                
                 padding: 14px 20px;
                 text-decoration: none;
@@ -34,27 +35,17 @@
                 padding-left: 27px;
 
         }
-
-            #imgem {
-                 height: 30%;
-                 width: 30%;
-                 line-height: normal;
-                 align-items: center; 
-                 padding:8%;
-                 border-color:#515839;
-                 
-            }
-
-        #imgespanha {
-                align-items:right;
-                width:50%;
-        }
         
         h1 { text-align: center;
-            color: white;
+            color: black;
         }
         
-        body{ background-color: gray;
+        body{ background-color: white;
+        }
+
+        .card-img-top {
+            height: 200px; /* Defina a altura desejada para as imagens dos cards */
+            object-fit: cover; /* Garante que a imagem mantenha suas proporções e seja cortada para preencher a área definida */
         }
         </style>
     </head>
@@ -63,26 +54,129 @@
     
         
     <div class="navbar">
-        <a href="#Pesquisa" id="pesquisa">Pesquisa</a>
         <a href="#Sobre Nós">Sobre Nós</a>
         <a href="#Contactos">Contactos</a>
     </div>
 
     <h1>
-        Escola a sua viagem pela Europa
+        Escolha a sua viagem pela Europa
     </h1>
     
-    <div> 
-        <img src="Portugal/PORTUGAL-Lisboa.png" id="imgem" alt="">
-    </div>
-
-    <div>
-        <img src="Espanha/ESPANHA-madrid.png" id="imgespanha"
-     </div>
-
-     <div>
-        <img src="ideia/" id=" ita src"
-     </div>
+    <div class="container">
+        <div class="row">
+          <!-- Cards lado a lado -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="assets/imgs/imagens/Amanha 1.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card 1</h5>
+                <p class="card-text">This is a sample card.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="assets/imgs/imagens/croacia 2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card 2</h5>
+                <p class="card-text">This is another sample card.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="assets/imgs/imagens/espanha 3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card 3</h5>
+                <p class="card-text">This is yet another sample card.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="row">
+          <!-- Cards abaixo -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="assets/imgs/imagens/Filandia 4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card 4</h5>
+                <p class="card-text">This is a sample card below.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="assets/imgs/imagens/frança 5.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card 5</h5>
+                <p class="card-text">This is another sample card below.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="assets/imgs/imagens/grécia 6.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card 6</h5>
+                <p class="card-text">This is yet another sample card below.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Cards abaixo -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="assets/imgs/imagens/hungria 7.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card 4</h5>
+                <p class="card-text">This is a sample card below.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="assets/imgs/imagens/irlanda 8.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card 5</h5>
+                <p class="card-text">This is another sample card below.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="assets/imgs/imagens/Itália 9.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card 6</h5>
+                <p class="card-text">This is yet another sample card below.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <!-- Cards abaixo -->
+          <div class="col-md-4 mb-4">
+              <div class="card">
+                  <img src="assets/imgs/imagens/Malta 10.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Card 4</h5>
+                      <p class="card-text">This is a sample card below.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="card">
+                  <img src="assets/imgs/imagens/portugual 11.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Card 5</h5>
+                      <p class="card-text">This is another sample card below.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      </div>
 
      
 
