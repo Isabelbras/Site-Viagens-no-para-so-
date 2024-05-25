@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    color: black;
+  }
+
+  body {
+    background-color: white;
+  }
+
+  .card-img-top {
+    height: 200px; /* Defina a altura desejada para as imagens dos cards */
+    object-fit: cover; /* Garante que a imagem mantenha suas proporções e seja cortada para preencher a área definida */
+  }
+
+  /* Estilos para a div gif */
+  .gif {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Defina a altura desejada para a div gif */
+    background-image: url("../../gif-fundo.gif"); /* Substitua 'seu_gif.gif' pelo caminho do seu GIF */
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* Estilos para o texto sobreposto */
+  .gif-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra ao texto */
+  }
